@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.5.0]
 ### Added
-- field {\_\_dateDDMMYYYY\_\_}
+- field {\_\_dateYYYYMMDD\_\_}
 - field {\_\_upperSnakeCaseName\_\_}
 
 

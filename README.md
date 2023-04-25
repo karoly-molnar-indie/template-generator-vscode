@@ -27,7 +27,7 @@ This extension helps in creating files and folders easily from defined templates
 * `{__email__}` : email
 * `{__link__}` : link
 * `{__date__}` : create time
-* `{__dateDDMMYYYY__}` : create date in DD-MM-YYYY format
+* `{__dateYYYYMMDD__}` : create date in YYYY-MM-DD format
 * `{__camelCaseName__}` : camelCaseFileName
 * `{__pascalCaseName__}` : PascalCaseFileName
 * `{__snakeCaseName__}` : snake_case_file_name

@@ -70,7 +70,7 @@ export class Fields {
         return new Date().toLocaleString();
     }
 
-    public get dateMMDDYYYY() {
+    public get dateYYYYMMDD() {
         var date = new Date();
         var year = date.getFullYear();
 
@@ -80,7 +80,7 @@ export class Fields {
         var day = date.getDate().toString();
         day = day.length > 1 ? day : '0' + day;
         
-        return month + '-' + day + '-' + year;
+        return year + '-' + month + '-' + day;
     }
 
     public get author(): string {
